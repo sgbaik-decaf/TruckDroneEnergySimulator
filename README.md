@@ -19,7 +19,7 @@ The original source code by Murray & Raj (2020) is on [GitHub](https://github.co
 This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
 
 # How to run the Demonstrator Package
-## Install Dependencies
+## I. Install Dependencies
 Install the following directories.
   1. [NumPy](https://numpy.org/install/) Suggested version: 1.26.4
   2. [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) Suggested version: 2.2.3
@@ -29,16 +29,23 @@ Install the following directories.
   6. [Seaborn](https://seaborn.pydata.org/installing.html)
   7. mFSTSP solver package (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python), Suggested version: 11.0.3)
 
-## Download and Unzip Addons
-`addons.zip` includes 7 files:
+## II. Download and Unzip Addons
+`addons.zip` includes 8 files:
   1. `addon_main.py`
-  2. `addon_OSMnxGeospatialSimulator.py`
-  3. `addon_EnergyConsumptionCalculator.py`
-  4. `addon_HaversineFunction.py`
-  5. `addon_GreedyGroundTSP.py`
-  6. `tbl_vehicles_999.csv`
-  7. A folder `myproblem`
+  2. `newmain.py`
+  3. `addon_OSMnxGeospatialSimulator.py`
+  4. `addon_EnergyConsumptionCalculator.py`
+  5. `addon_HaversineFunction.py`
+  6. `addon_GreedyGroundTSP.py`
+  7. `tbl_vehicles_999.csv`
+  8. A folder `myproblem`
 
-## Move addons on top of the mFSTSP solver
-Items 1 through 5 should go into `\mFSTSP-master`.
-Items 6 and 7 should go into `\mFSTSP-master\Problems`.
+## III. Move addons on top of the mFSTSP solver
+All items must be moved inro specific directories for this package to work correctly.
+
+Navigate to the mFSTSP solver folder you just installed on your machine.
+
+Move the contents of `addons.zip` into appropriate folders.
+
+* Items 1 through 6 should go directly into `\mFSTSP-master`.
+* Items 7 and 8 should go into a subfolder `\mFSTSP-master\Problems`.
