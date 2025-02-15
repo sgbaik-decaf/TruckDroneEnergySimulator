@@ -181,7 +181,7 @@ Although the geocoder provided by OSMnx provides some flexibility, a typo in add
 
 ### 3. Disconnected node
 
-**The is known to be the most frequent cause of error.**
+<p style="color:red">The is known to be the most frequent cause of error.</p>
 
 This happens because OSMnx cannot find a working route between a pair of nodes due to a disconnected graph (road network).
 
@@ -194,3 +194,7 @@ You may adjust the *City Center Parameter* to increase customer generation in th
 If problem persists, your desired depot location may be located outside of the graph.
 
 If this is the case, adjust your *Boundary Box Range*
+
+In cities with very complex jurisdictions and municipal boundaries, the demonstrator can fail to build a working graph.
+
+It is feasible to set the *city name* to a higher level (i.e. County) to fix this issue, but this will dramatically increase the time it takes to run the package.
