@@ -25,7 +25,7 @@ Install the following directories.
   4. [OSMnx](https://osmnx.readthedocs.io/en/stable/installation.html) Suggested version: 1.9.4
   5. [Matplotlib](https://matplotlib.org/stable/install/index.html)
   6. [Seaborn](https://seaborn.pydata.org/installing.html)
-  7. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python), Suggested version: 11.0.3)
+  7. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python) - Suggested version: 11.0.3)
 
 ## II. Download and Unzip Addons
 `addons.zip` includes 8 files:
