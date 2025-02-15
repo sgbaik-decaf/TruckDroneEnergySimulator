@@ -60,7 +60,9 @@ Make sure your IDE is running on `\mFSTSP-master` (or wherever the other files a
 
 ## Parameters
 
-There are a few parameters for users to set.
+There are a few parameters for users to set. Below is an example for you to follow.
+
+Enter parameters directly to your console.
 
 1. City Name
 ```
@@ -104,4 +106,11 @@ Display intermediate data?
 [1]: No
 [2]: Yes
 >>2
+```
+
+7. Number of Simulations (only available in *Monte Carlo Simulation* mode)
+```
+Set number of simulations to run 
+(Suggested: 30-100)
+>>50
 ```
