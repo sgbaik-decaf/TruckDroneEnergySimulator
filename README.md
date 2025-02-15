@@ -1,14 +1,21 @@
 # TruckDroneEnergySimulator
+
 Repository Maintainer (Corresponding Author): Seung Gyu Baik [https://sgbaik.notion.site/BAIK-S-ONLINE-REPOSITORY-a47a903af9894120b91fdf0124b75c9f](website)
+
 Contact: seunggyb@alumni.cmu.edu
+
 Affiliation: Carnegie Mellon University
 
 # Purpose
-This package demonstrates the proposed analytic framework in "Framework for modeling Energy Savings of Truck-drone Hybrid Deliveries in Arbitrary Cities (2025)".
+
+This package demonstrates the proposed analytic framework in
+"Framework for modeling Energy Savings of Truck-drone Hybrid Deliveries in Arbitrary Cities (2025)".
 
 # Disclaimer
 This package is designed to be an "add-on" extension to the mFSTSP Solver.
+
 The original source code by Murray & Raj (2020) is on [GitHub](https://github.com/optimatorlab/mFSTSP).
+
 This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
 
 # How to run the Demonstrator Package
