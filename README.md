@@ -1,6 +1,6 @@
 # TruckDroneEnergySimulator
 
-Repository Maintainer (Corresponding Author): Seung Gyu Baik [website](https://sgbaik.notion.site/BAIK-S-ONLINE-REPOSITORY-a47a903af9894120b91fdf0124b75c9f)
+Repository Maintenance Manager (Corresponding Author): Seung Gyu Baik (Call me Baik if too long.)
 
 Contact: seunggyb@alumni.cmu.edu
 
