@@ -12,9 +12,7 @@ This package demonstrates the proposed analytic framework in
 "Framework for modeling Energy Savings of Truck-drone Hybrid Deliveries in Arbitrary Cities (2025)".
 
 # Disclaimer
-This package is designed to be an "add-on" extension to the mFSTSP Solver.
-
-The original source code by Murray & Raj (2020) is on [GitHub](https://github.com/optimatorlab/mFSTSP).
+This package is designed to be an "add-on" extension to the mFSTSP Solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
 
 This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
 
@@ -27,7 +25,7 @@ Install the following directories.
   4. [OSMnx](https://osmnx.readthedocs.io/en/stable/installation.html) Suggested version: 1.9.4
   5. [Matplotlib](https://matplotlib.org/stable/install/index.html)
   6. [Seaborn](https://seaborn.pydata.org/installing.html)
-  7. mFSTSP solver package (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python), Suggested version: 11.0.3)
+  7. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python), Suggested version: 11.0.3)
 
 ## II. Download and Unzip Addons
 `addons.zip` includes 8 files:
