@@ -159,7 +159,7 @@ Graphs are cached in the folder to slightly expedite the next simulation.
 
 This is because graphs and mFSTSP results are cached and/or stored somewhere in your working directory.
 
-You may delete those files.
+You may delete those files (i.e. `tbl_solutions_999_3_Heuristic.csv`).
 
 ## OpenStreetMap and/or OSMnx is not working
 
