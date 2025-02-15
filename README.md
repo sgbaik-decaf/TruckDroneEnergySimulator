@@ -77,7 +77,7 @@ Enter a city name and state name to analyze
 ```
 Enter an address for delivery depot location 
 (e.g. "1723 Murray Ave, Pittsburgh, PA")
->>1614 Glenwood Ave
+>>11 W Jones St, Raleigh, NC
 ```
 
 3. Boundary Box Range
