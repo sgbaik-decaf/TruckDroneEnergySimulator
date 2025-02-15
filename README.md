@@ -14,11 +14,13 @@ This package demonstrates the proposed analytic framework in
 # Disclaimer
 This package is designed to be an "add-on" extension to the mFSTSP Solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
 
-This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
+This package utilizes OSMnx by [Boeing (2024)](https://github.com/gboeing/osmnx).
 
-# How to Install Demonstrator
+# How to Install the Demonstrator
+
 ## I. Install Dependencies
-Install the following directories.
+
+Install the following dependencies.
   1. [NumPy](https://numpy.org/install/) Suggested version: 1.26.4
   2. [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) Suggested version: 2.2.3
   3. [NetworkX](https://networkx.org/documentation/stable/install.html) Suggested version: 3.3
