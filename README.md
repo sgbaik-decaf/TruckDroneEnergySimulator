@@ -121,6 +121,14 @@ If everything goes well, you will see a summary statistic of potential energy sa
 
 You may opt to save the results as a .csv file.
 
+## Testing for a specific drone model
+
+By default, the demonstrator mimics a personal sUAV.
+
+Specifications are in `tbl_vehicles_999.csv`.
+
+You can alter the numbers in this file to test for a specific drone model of your choice.
+
 # Troubleshooting
 
 ## I need help in general.
@@ -135,11 +143,25 @@ OSMnx, especially, is under active development and the code syntax may differ si
 
 As of February 2025, newest versions of standard libraries are not expected to cause an error.
 
+## It takes to long.
+
+Yes, you are correct.
+
+This is because the package downloads data from OpenStreetMap API.
+
+In a medium-sized city, the initial instance lasts around 2 minutes (to build the graph), and the following instances each last around 1 minute.
+
+Graphs are cached in the folder to slightly expedite the next simulation.
+
+## The file size became too large.
+
+This is because graphs and mFSTSP results are cached and/or stored somewhere in your working directory.
+
+You may delete those files.
+
 ## OpenStreetMap and/or OSMnx is not working
 
 If this is the case, your console will state that this is the case.
-
-Issues with OpenStreetMap and/or OSMnx is known to be the most frequent cause of error.
 
 There are 3 common causes you should first check out.
 
@@ -157,6 +179,16 @@ Although the geocoder provided by OSMnx provides some flexibility, a typo in add
 
 ### 3. Disconnected node
 
-The 
+**The is known to be the most frequent cause of error.**
 
-Depot not connected to graph
+This happens because OSMnx cannot find a working route between a pair of nodes due to a disconnected graph (road network).
+
+It is understood that the graph representation of OSMnx cannot capture every single detail in the roads, and this occationally result in some nodes being isolated from other nodes.
+
+Unless you modify `addon_OSMnxGeospatialSimulator.py` with expert knowledge in the both the library and the actual city, you can simply run the script again hoping newly generated customer nodes to be fully connected.
+
+You may adjust the *City Center Parameter* to increase customer generation in the city center, where the road network is more 'square'.
+
+If problem persists, your desired depot location may be located outside of the graph.
+
+If this is the case, adjust your *Boundary Box Range*
