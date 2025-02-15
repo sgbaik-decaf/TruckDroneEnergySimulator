@@ -16,7 +16,7 @@ This package is designed to be an "add-on" extension to the mFSTSP Solver by [Mu
 
 This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
 
-# How to run the Demonstrator Package
+# How to Install Demonstrator
 ## I. Install Dependencies
 Install the following directories.
   1. [NumPy](https://numpy.org/install/) Suggested version: 1.26.4
@@ -47,3 +47,61 @@ Move the contents of `addons.zip` into appropriate folders.
 
 * Items 1 through 6 should go directly into `\mFSTSP-master`.
 * Items 7 and 8 should go into a subfolder `\mFSTSP-master\Problems`.
+
+You are encouraged to make a copy of `\mFSTSP-master` before importing addons (e.g. `\mFSTSP-master-copy`). 
+
+# How to Run Demonstrator
+`addon_main.py` is the script that directly interatcts with the users.
+
+1. Open this script with a modern integrated devleopment environment (IDE) like Visual Studio Code or Spyder.
+Make sure your IDE is running on `\mFSTSP-master` (or wherever the other files are).
+2. Run the script.
+3. Define parameters via your console.
+
+## Parameters
+
+There are a few parameters for users to set.
+
+1. City Name
+```
+Enter a city name and state name to analyze
+(e.g. "Pittsburgh, PA")
+>>Raleigh, NC
+```
+
+2. Depot Location
+```
+Enter an address for delivery depot location 
+(e.g. "1723 Murray Ave, Pittsburgh, PA")
+>>1614 Glenwood Ave
+```
+
+3. Boundary Box Range
+```
+Specify the size of you area of operations in km 
+(Suggested: 5~15)
+>>7
+```
+
+4. Monte Carlo Simulation
+```
+Set analysis mode
+[1]: Single Instance Simulation
+[2]: Monte Carlo Simulation
+>>1
+```
+
+5. City Center Parameter
+```
+Specify city center parameter in & 
+(Suggested: 0.3~0.7)
+>>0.5
+```
+
+6. Intermediate UAV sorties & Energy Use Display (only available in *Single Instance Simulation* mode)
+```
+Display intermediate data?
+[1]: No
+[2]: Yes
+>>2
+```
