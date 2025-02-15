@@ -8,19 +8,19 @@ This package demonstrates the proposed analytic framework in "Framework for mode
 
 # Disclaimer
 This package is designed to be an "add-on" extension to the mFSTSP Solver.
-The original source code by Murray & Raj (2020) is on GitHub: [https://github.com/optimatorlab/mFSTSP](https://github.com/optimatorlab/mFSTSP).
-This package utilizes OSMnx by Boeing (2024) which its documentatiob is on GitHub: [https://github.com/gboeing/osmnx](https://github.com/gboeing/osmnx).
+The original source code by Murray & Raj (2020) is on [GitHub](https://github.com/optimatorlab/mFSTSP).
+This package utilizes OSMnx by Boeing (2024) which its documentatiob is on [GitHub](https://github.com/gboeing/osmnx).
 
 # How to run the Demonstrator Package
 ## Install Dependencies
 Install the following directories.
-1. [https://numpy.org/install/](NUMPY) Suggested version: 1.26.4
-2. [https://pandas.pydata.org/docs/getting_started/install.html](Pandas) Suggested version: 2.2.3
-3. [https://networkx.org/documentation/stable/install.html](NetworkX) Suggested version: 3.3
-4. [https://osmnx.readthedocs.io/en/stable/installation.html](OSMnx) Suggested version: 1.9.4
-5. [https://matplotlib.org/stable/install/index.html](Matplotlib)
-6. [https://seaborn.pydata.org/installing.html](Seaborn)
-7. MFSTSP SOLVER PACKAGE (THE WHOLE THING including [https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python](Gurobi))
+1. [NumPy](https://numpy.org/install/) Suggested version: 1.26.4
+2. [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) Suggested version: 2.2.3
+3. [NetworkX](https://networkx.org/documentation/stable/install.html) Suggested version: 3.3
+4. [OSMnx](https://osmnx.readthedocs.io/en/stable/installation.html) Suggested version: 1.9.4
+5. [Matplotlib](https://matplotlib.org/stable/install/index.html)
+6. [Seaborn](https://seaborn.pydata.org/installing.html)
+7. MFSTSP SOLVER PACKAGE (THE WHOLE THING including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python))
 
 ## Download and extract addons.zip
 1. "addon_main.py"
