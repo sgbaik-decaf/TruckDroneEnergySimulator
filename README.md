@@ -39,7 +39,7 @@ Install the following directories.
   8. A folder `myproblem`
 
 ## III. Move addons on top of the mFSTSP solver
-All items must be moved inro specific directories for this package to work correctly.
+All items must be moved to specific directories for this package to work correctly.
 
 Navigate to the mFSTSP solver folder you just installed on your machine.
 
@@ -114,3 +114,49 @@ Set number of simulations to run
 (Suggested: 30-100)
 >>50
 ```
+
+## Results
+
+If everything goes well, you will see a summary statistic of potential energy savings on your conole.
+
+You may opt to save the results as a .csv file.
+
+# Troubleshooting
+
+## I need help in general.
+
+Please shoot an email to seunggyb@alumni.cmu.edu and describe what is happening.
+
+## Do I need to install libraries of specific versions?
+
+No. However, it is recommended to do so to prevent unforeseen errors.
+
+OSMnx, especially, is under active development and the code syntax may differ significantly between versions.
+
+As of February 2025, newest versions of standard libraries are not expected to cause an error.
+
+## OpenStreetMap and/or OSMnx is not working
+
+If this is the case, your console will state that this is the case.
+
+Issues with OpenStreetMap and/or OSMnx is known to be the most frequent cause of error.
+
+There are 3 common causes you should first check out.
+
+### 1. Internet connection issue
+
+Make sure you are connected to the internet with no restrictions.
+
+Certain public wi-fi environments (e.g. Dunkin Donuts) may prohibit retriving information from the OpenStreepMap API.
+
+In rare cases, the OpenStreetMap itself may be 'down' at the moment.
+
+### 2. Typo in query
+
+Although the geocoder provided by OSMnx provides some flexibility, a typo in addresses are not automatically fixed.
+
+### 3. Disconnected node
+
+The 
+
+Depot not connected to graph
