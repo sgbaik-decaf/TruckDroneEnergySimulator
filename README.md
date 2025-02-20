@@ -123,13 +123,15 @@ If everything goes well, you will see a summary statistic of potential energy sa
 
 You may opt to save the results as a .csv file.
 
-## Testing for a specific drone model
+## Testing for a specific drone or truck model
 
 By default, the demonstrator mimics a personal sUAV.
 
 Specifications are in `tbl_vehicles_999.csv`.
 
 You can alter the numbers in this file to test for a specific drone model of your choice.
+
+You can also alter the baseline energy consumption of the ground vehicle (Wh/km) by changing the parameters in `addon_main.py`.
 
 # Troubleshooting
 
