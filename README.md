@@ -135,7 +135,7 @@ You can also alter the baseline energy consumption of the ground vehicle (Wh/km)
 
 ## I need help in general.
 
-Please shoot an email to seunggyb@alumni.cmu.edu and describe what is happening.
+Please shoot an email to me and describe what is happening.
 
 ## Do I need to install libraries of specific versions?
 
