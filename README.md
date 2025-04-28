@@ -2,9 +2,7 @@
 
 Repository Maintenance Manager (Corresponding Author): Seung Gyu Baik (Call me Baik if too long.)
 
-Contact: seunggyb@alumni.cmu.edu
-
-Affiliation: Carnegie Mellon University
+Contact: sgbaik@utexas.edu / seunggyb@alumni.cmu.edu
 
 # Purpose
 
