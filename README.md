@@ -1,6 +1,6 @@
 # TruckDroneEnergySimulator
 
-Repository Maintenance Manager (Corresponding Author): Seung Gyu Baik (Call me Baik if too long.)
+Repository Manager (Corresponding Author): Seung Gyu Baik
 
 Contact: sgbaik@utexas.edu / seunggyb@alumni.cmu.edu
 
