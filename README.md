@@ -27,9 +27,7 @@ Install the following dependencies.
 
 ## II. Download and Unzip Addons
 
-There should be a big green button that says 🟩`<> code🔻`🟩 on the top of this webpage.
-
-Click that button, and download this GitHub repository as a .zip file.
+Download `addon.zip`.
 
 `addon.zip` includes 7 files:
   1. `addon_main.py`
