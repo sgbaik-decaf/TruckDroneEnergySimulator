@@ -79,14 +79,14 @@ Enter an address for delivery depot location.
 >>KLCC Park Running Track, Lorong Kuda, Kuala Lumpur City Centre (KLCC), Kampung Cendana, Kuala Lumpur, 50088, Malaysia
 ```
 
-3. Boundary Box Parameter
+3. Boundary Box Parameter (`BBOX`)
 ```
 Specify the size of your area of operations in kilometers. 
 (Suggested: 5~15)
 >>5
 ```
 
-4. City Center Parameter
+4. City Center Parameter (`CC`)
 ```
 Specify city center parameter. 
 (Suggested: 0.3~0.8)
@@ -132,13 +132,46 @@ Display intermediate data?
 >>1
 ```
 
+## Simulation
 
+If everything goes well, your console will display something like below.
+
+```
+Running Simulation Instance #1/50...
+Iteration #1 typically takes longer.
+Graph Representation for "Raleigh, NC" Generated
+Customer Batch & Travel Matrix Generated
+Baseline(Diesel Truck): 199.4683 kWh
+Truck-Drone Hybrid(Diesel Truck): 99.6291 kWh
+Simulation Result Noted
+Instance #1 took 185.65 seconds
+
+Running Simulation Instance #2/50...
+Baseline(Diesel Truck): 204.8903 kWh
+Truck-Drone Hybrid(Diesel Truck): 89.287 kWh
+Simulation Result Noted
+Instance #2 took 58.5 seconds
+
+Running Simulation Instance #3/50...
+Baseline(Diesel Truck): 186.1451 kWh
+Truck-Drone Hybrid(Diesel Truck): 130.1334 kWh
+Simulation Result Noted
+Instance #3 took 56.83 seconds
+
+...
+```
 
 ## Results
 
-If everything goes well, you will see a summary statistic of energy consumption estimates on your conole.
+Simulation results will be displayed as summary statistics of energy consumption estimates.
 
-You may opt to save the results as a .csv file.
+Results should have been saved as a .csv file based on your settings.
+
+# Troubleshooting
+
+## I need help in general.
+
+Please shoot an email to me. I will help.
 
 ## Testing for a specific drone or truck model
 
@@ -149,12 +182,6 @@ Specifications are in `tbl_vehicles_999.csv`.
 You can alter the values in this file to test for a specific drone model of your choice.
 
 You can also alter the baseline energy consumption of the ground vehicle (Wh/km) by changing the variable `BaselineInformation` in `addon_main.py`.
-
-# Troubleshooting
-
-## I need help in general.
-
-Please shoot an email to me. I will help.
 
 ## Do I need to install libraries of specific versions?
 
