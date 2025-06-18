@@ -31,7 +31,7 @@ There should be a big green button that says 🟩`<> code🔻`🟩 on the top of
 
 Click that button, and download this GitHub repository as a .zip file.
 
-`addon.zip` includes 8 files:
+`addon.zip` includes 7 files:
   1. `addon_main.py`
   2. `newmain.py`
   3. `addon_OSMnxGeospatialSimulator.py`
@@ -49,6 +49,7 @@ Navigate to the folder titled `\mFSTSP-master`.
 Move the contents of `addon.zip` into appropriate folders.
 
 ***All items should go directly into*** `\mFSTSP-master`.
+
 ***The folder*** `Problems` ***should replace*** `\mFSTSP-master\Problems`.
 
 # How to Run Demonstrator
