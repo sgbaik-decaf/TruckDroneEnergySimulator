@@ -140,11 +140,11 @@ You may opt to save the results as a .csv file.
 
 ## Testing for a specific drone or truck model
 
-By default, the demonstrator mimics [DJI Matrice 100](https://www.dji.com/support/product/matrice100), which is a personal sUAV.
+By default, the demonstrator mimics a personal sUAV similar to [DJI Matrice 100](https://www.dji.com/support/product/matrice100) which has been used to build the energy model by [Rodrigues et al., 2022](https://doi.org/10.1016/j.patter.2022.100569).
 
 Specifications are in `tbl_vehicles_999.csv`.
 
-You can alter the numbers in this file to test for a specific drone model of your choice.
+You can alter the values in this file to test for a specific drone model of your choice.
 
 You can also alter the baseline energy consumption of the ground vehicle (Wh/km) by changing the variable `BaselineInformation` in `addon_main.py`.
 
@@ -152,7 +152,7 @@ You can also alter the baseline energy consumption of the ground vehicle (Wh/km)
 
 ## I need help in general.
 
-Please shoot an email to me and describe what is happening.
+Please shoot an email to me. I will help.
 
 ## Do I need to install libraries of specific versions?
 
@@ -216,7 +216,7 @@ If you suspect this is the case, you can simply run the script again hoping that
 
 If problem persists, your desired depot location may be isolated from the remaining part of the graph.
 
-If this is the case, adjust your *Boundary Box Range*.
+If this is the case, adjust your *Boundary Box Range* and make the graph cover a larger area.
 
 In cities with very complex jurisdictions and municipal boundaries, the demonstrator can fail to build a working graph.
 
