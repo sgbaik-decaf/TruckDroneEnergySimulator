@@ -6,7 +6,7 @@ Contact: sgbaik@utexas.edu
 
 # Purpose
 
-This package demonstrates the proposed analytic framework in
+This package demonstrates the proposed simulation framework in
 "A Simulation Framework for Evaluating Energy Savings of Truck-drone Hybrid Last-mile Delivery in Arbitrary Cities (2025)".
 
 # Disclaimer
