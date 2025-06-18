@@ -77,7 +77,7 @@ Enter an address for delivery depot location.
 >>KLCC Park Running Track, Lorong Kuda, Kuala Lumpur City Centre (KLCC), Kampung Cendana, Kuala Lumpur, 50088, Malaysia
 ```
 
-3. Boundary Box Range
+3. Boundary Box Parameter
 ```
 Specify the size of your area of operations in kilometers. 
 (Suggested: 5~15)
