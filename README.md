@@ -163,9 +163,28 @@ Instance #3 took 56.83 seconds
 
 ## Results
 
-Simulation results will be displayed as summary statistics of energy consumption estimates.
+Simulation results will be displayed as summary statistics of energy consumption estimates, like below.
 
-Results should have been saved as a .csv file based on your settings.
+```
+[RESULT]
+
+Total elapsed time:  3821.29 seconds
+
+Energy consumptions of Hybrid Delivery and Conventional Delivery Baseline - Diesel Truck (kWh):
+BASELINE: 201.0933
+HYBRID: 124.73
+
+Energy consumptions of Hybrid Delivery and Conventional Delivery Baseline - EV Truck (kWh):
+BASELINE: 46.8747
+HYBRID: 29.3895
+
+Energy consumptions of Hybrid Delivery and Conventional Delivery Baseline - EV Van (kWh):
+BASELINE: 26.25
+HYBRID: 16.639
+Thanks for running this script. Bye.
+```
+
+Results should have been saved as .csv file(s) based on your settings.
 
 # Troubleshooting
 
