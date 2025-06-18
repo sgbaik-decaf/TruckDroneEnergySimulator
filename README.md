@@ -42,16 +42,17 @@ Click that button, and download this GitHub repository as a .zip file.
   8. A folder `myproblem`
 
 ## III. Move addons on top of the mFSTSP solver
+
+Make sure you have installed the mFSTSP solver.
+
+Navigate to the folder titled `\mFSTSP-master`.
+
+Move the contents of `TruckDroneEnergySimulator-main.zip` into appropriate folders.
+
 All items must be moved to specific directories for this package to work correctly.
-
-Navigate to the mFSTSP solver folder you just installed on your machine.
-
-Move the contents of `addons.zip` into appropriate folders.
 
 * Items 1 through 6 should go directly into `\mFSTSP-master`.
 * Items 7 and 8 should go into a subfolder `\mFSTSP-master\Problems`.
-
-You are encouraged to make a copy of `\mFSTSP-master` before importing addons (e.g. `\mFSTSP-master-copy`). 
 
 # How to Run Demonstrator
 `addon_main.py` is the script that directly interatcts with the users.
