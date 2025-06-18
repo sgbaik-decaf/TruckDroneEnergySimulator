@@ -2,17 +2,17 @@
 
 Repository Manager (Corresponding Author): Seung Gyu Baik
 
-Contact: sgbaik@utexas.edu / seunggyb@alumni.cmu.edu
+Contact: sgbaik@utexas.edu
 
 # Purpose
 
 This package demonstrates the proposed analytic framework in
-"Framework for modeling Energy Savings of Truck-drone Hybrid Deliveries in Arbitrary Cities (2025)".
+"A Simulation Framework for Evaluating Energy Savings of Truck-drone Hybrid Last-mile Delivery in Arbitrary Cities (2025)".
 
 # Disclaimer
-This package is designed to be an "add-on" extension to the mFSTSP Solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
+This package is designed to be an "add-on" extension to the mFSTSP solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
 
-This package utilizes OSMnx by [Boeing (2024)](https://github.com/gboeing/osmnx).
+This package utilizes the OSMnx package by [Boeing (2025)](https://github.com/gboeing/osmnx).
 
 # How to Install the Demonstrator
 
@@ -23,9 +23,7 @@ Install the following dependencies.
   2. [Pandas](https://pandas.pydata.org/docs/getting_started/install.html) Suggested version: 2.2.3
   3. [NetworkX](https://networkx.org/documentation/stable/install.html) Suggested version: 3.3
   4. [OSMnx](https://osmnx.readthedocs.io/en/stable/installation.html) Suggested version: 1.9.4
-  5. [Matplotlib](https://matplotlib.org/stable/install/index.html)
-  6. [Seaborn](https://seaborn.pydata.org/installing.html)
-  7. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python) - Suggested version: 11.0.3)
+  5. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python) - Suggested version: 11.0.3)
 
 ## II. Download and Unzip Addons
 `addons.zip` includes 8 files:
@@ -66,21 +64,22 @@ Enter parameters directly to your console.
 
 1. City Name
 ```
-Enter a city name and state name to analyze
+Enter a city name to analyze
 (e.g. "Pittsburgh, PA")
 >>Raleigh, NC
 ```
 
 2. Depot Location
+* Note that it does not have to be a street address, as long as it's a unique OpenStreetMap feature.
 ```
 Enter an address for delivery depot location 
 (e.g. "1723 Murray Ave, Pittsburgh, PA")
->>11 W Jones St, Raleigh, NC
+>>KLCC Park, Kuala Lumpur, Malaysia
 ```
 
 3. Boundary Box Range
 ```
-Specify the size of you area of operations in km 
+Specify the size of your area of operations in km 
 (Suggested: 5~15)
 >>7
 ```
@@ -95,7 +94,7 @@ Set analysis mode
 
 5. City Center Parameter
 ```
-Specify city center parameter in & 
+Specify city center parameter
 (Suggested: 0.3~0.7)
 >>0.5
 ```
@@ -179,6 +178,8 @@ In rare cases, the OpenStreetMap itself may be 'down' at the moment.
 
 Although the geocoder provided by OSMnx provides some flexibility, a typo in addresses are not automatically fixed.
 
+If you are unsure about the address format for a foreign city, it is recommended to check that your address exists as a feature at [OpenStreetMap](https://www.openstreetmap.org/).
+
 ### 3. Disconnected node
 
 <p style="color:red">The is known to be the most frequent cause of error.</p>
@@ -193,7 +194,7 @@ You may adjust the *City Center Parameter* to increase customer generation in th
 
 If problem persists, your desired depot location may be located outside of the graph.
 
-If this is the case, adjust your *Boundary Box Range*
+If this is the case, adjust your *Boundary Box Range*.
 
 In cities with very complex jurisdictions and municipal boundaries, the demonstrator can fail to build a working graph.
 
