@@ -27,7 +27,7 @@ Install the following dependencies.
 
 ## II. Download and Unzip Addons
 
-Download this GitHub repository as a .zip file via the big green button that says <p style="color:green"> <> code🔻>. 
+Download this GitHub repository as a .zip file via the big green button 🟩 that says `<> code🔻`>. 
 
 `TruckDroneEnergySimulator-main.zip` includes 8 files:
   1. `addon_main.py`
