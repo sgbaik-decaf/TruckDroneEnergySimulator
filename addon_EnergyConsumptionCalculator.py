@@ -13,7 +13,7 @@ def runDroneEnergyModule(sorties, UAV_info):
             new_description_column.append('nothing')
     sorties['Description'] = pd.Series(new_description_column)
     
-    # pre-fitted values from Rodrigues et al
+    # pre-fitted values from Rodrigues et al. (2022)
     beta_1_TO = 80.4 # no unit
     beta_0_TO = 13.8 # no unit
     beta_1_CRZ = 68.9 # no unit
@@ -96,16 +96,3 @@ def runTruckEnergyModule(truck_tour, matrix_DF_copy, BaselineInformation):
 
     Ground_energy_DF = truck_tour_with_dist
     return Ground_energy_DF
-
-# Diesel truck depot to door = 4.29 kWh/mi = 2665.69 Wh/km (DoE 2020)
-# EV truck depot to door = 1 kWh/mi = 621.37 Wh/km (DoE 2020)
-# EV van depot to door = 0.56 kWh/mi = 347.97 Wh/km (DoE 2020)
-
-
-
-
-
-
-
-
-
