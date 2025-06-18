@@ -13,9 +13,8 @@ It demonstrates the proposed framework in:
 "A Simulation Framework for Evaluating Energy Savings of Truck-drone Hybrid Last-mile Delivery in Arbitrary Cities (2025)".
 
 # Disclaimer
-This package is designed to be an "add-on" extension to the mFSTSP solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
 
-This package utilizes the OSMnx package by [Boeing (2025)](https://github.com/gboeing/osmnx).
+This package is designed to be an "add-on" extension to the mFSTSP solver by [Murray & Raj (2020)](https://github.com/optimatorlab/mFSTSP).
 
 # How to Install the Demonstrator
 
@@ -273,4 +272,4 @@ In cities with very complex jurisdictions and municipal boundaries, the demonstr
 
 It is feasible to set the *city name* to a higher level (i.e. County) to fix this issue, but this will dramatically increase the time it takes to run the package.
 
-As appropriate, you may modify `addon_OSMnxGeospatialSimulator.py`, after consulting [OSMnx documentation](https://osmnx.readthedocs.io/en/stable/).
+As appropriate, you may modify `addon_OSMnxGeospatialSimulator.py`, after consulting [OSMnx documentation](https://osmnx.readthedocs.io/en/stable/) by [Boeing (2025)](https://github.com/gboeing/osmnx).
