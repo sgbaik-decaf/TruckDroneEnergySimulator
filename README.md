@@ -6,7 +6,10 @@ Contact: sgbaik@utexas.edu / leftsidelab144@gmail.com
 
 # Purpose
 
-This package demonstrates the proposed simulation framework in
+This package simulates an urban last-mile delivery system with one truck and multiple drones, and estimates its energy savings compared to a conventional delivery baseline.
+
+It demonstrates the proposed framework in:
+
 "A Simulation Framework for Evaluating Energy Savings of Truck-drone Hybrid Last-mile Delivery in Arbitrary Cities (2025)".
 
 # Disclaimer
