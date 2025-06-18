@@ -50,7 +50,7 @@ Move the contents of `addon.zip` into appropriate folders.
 
 ***The folder*** `Problems` ***should replace*** `\mFSTSP-master\Problems`.
 
-# How to Run Demonstrator
+# How to Run the Demonstrator
 `addon_main.py` is the script that directly interatcts with the users.
 
 1. Open this script with a modern integrated devleopment environment (IDE) like Visual Studio Code or Spyder.
