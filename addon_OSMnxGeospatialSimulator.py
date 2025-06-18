@@ -78,8 +78,8 @@ def SimulateCustomers(city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini):
     if __name__ == '__main__':
         print(nodes_DF.to_string())
 
-    global nodes_DF_global
-    nodes_DF_global = nodes_DF
+    # print(nodes_DF.loc[:,'latDeg':'lonDeg'].to_string())
+    # Uncomment this line to show customer nodes in console
 
     nodes_DF_out = nodes_DF.copy()
     nodes_DF_out.drop(columns=['node_no'], inplace=True)
@@ -99,10 +99,10 @@ def SimulateCustomers(city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini):
             route_length = 0
             route_time = 0
         else:
-            route = ox.shortest_path(G, orig, dest, weight="length")
+            route = ox.shortest_path(G, orig, dest, weight="travel_time")
             # ox.plot_graph_route(G, route, route_color="y", route_linewidth=6, node_size=0)
-            route_length = int(sum(ox.routing.route_to_gdf(G, route, weight="length")["length"]))
-            route_time = int(sum(ox.routing.route_to_gdf(G, route, weight="length")["travel_time"]))
+            route_length = int(sum(ox.routing.route_to_gdf(G, route, weight="travel_time")["length"]))
+            route_time = int(sum(ox.routing.route_to_gdf(G, route, weight="travel_time")["travel_time"]))
         return (str(orig), str(dest), route_length, route_time)
 
     # Build DataFrame for distance & time matrix
@@ -145,5 +145,5 @@ def SimulateCustomers(city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini):
 
 
 if __name__ == '__main__':
-    city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini = BuildBoxGraph("Pittsburgh, PA", '5000 Forbes Ave', 10, 0.5)
+    city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini = BuildBoxGraph("Pittsburgh, PA", '1723 Murray Ave, Pittsburgh, PA', 15, 0.5)
     matrix_DF = SimulateCustomers(city,depot_xy,G,Gp,Gp_cust,Gp_cust_mini)
