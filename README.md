@@ -26,7 +26,10 @@ Install the following dependencies.
   5. [mFSTSP solver package](https://github.com/optimatorlab/mFSTSP) (*THE WHOLE THING* including [Gurobi](https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python) - Suggested version: 11.0.3)
 
 ## II. Download and Unzip Addons
-`addons.zip` includes 8 files:
+
+Download this GitHub repository as a .zip file via the big green button that says <p style="color:green"> <> code🔻>. 
+
+`TruckDroneEnergySimulator-main.zip` includes 8 files:
   1. `addon_main.py`
   2. `newmain.py`
   3. `addon_OSMnxGeospatialSimulator.py`
