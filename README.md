@@ -2,7 +2,7 @@
 
 Repository Manager (Corresponding Author): Seung Gyu Baik
 
-Contact: sgbaik@utexas.edu
+Contact: sgbaik@utexas.edu / leftsidelab144@gmail.com
 
 # Purpose
 
