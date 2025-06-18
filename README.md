@@ -31,15 +31,14 @@ There should be a big green button that says 🟩`<> code🔻`🟩 on the top of
 
 Click that button, and download this GitHub repository as a .zip file.
 
-`TruckDroneEnergySimulator-main.zip` includes 8 files:
+`addon.zip` includes 8 files:
   1. `addon_main.py`
   2. `newmain.py`
   3. `addon_OSMnxGeospatialSimulator.py`
   4. `addon_EnergyConsumptionCalculator.py`
   5. `addon_HaversineFunction.py`
   6. `addon_GreedyGroundTSP.py`
-  7. `tbl_vehicles_999.csv`
-  8. A folder `myproblem`
+  7. A folder `Problems`
 
 ## III. Move addons on top of the mFSTSP solver
 
@@ -47,12 +46,10 @@ Make sure you have installed the mFSTSP solver.
 
 Navigate to the folder titled `\mFSTSP-master`.
 
-Move the contents of `TruckDroneEnergySimulator-main.zip` into appropriate folders.
+Move the contents of `addon.zip` into appropriate folders.
 
-All items must be moved to specific directories for this package to work correctly.
-
-* Items 1 through 6 should go directly into `\mFSTSP-master`.
-* Items 7 and 8 should go into a subfolder `\mFSTSP-master\Problems`.
+***All items should go directly into*** `\mFSTSP-master`.
+***The folder*** `Problems` ***should replace*** `\mFSTSP-master\Problems`.
 
 # How to Run Demonstrator
 `addon_main.py` is the script that directly interatcts with the users.
