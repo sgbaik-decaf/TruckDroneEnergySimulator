@@ -140,7 +140,7 @@ You may opt to save the results as a .csv file.
 
 ## Testing for a specific drone or truck model
 
-By default, the demonstrator mimics a personal sUAV similar to [DJI Matrice 100](https://www.dji.com/support/product/matrice100) which has been used to build the energy model by [Rodrigues et al., 2022](https://doi.org/10.1016/j.patter.2022.100569).
+By default, the demonstrator mimics a personal sUAV similar to [DJI Matrice 100](https://www.dji.com/support/product/matrice100) which has been used to build the energy model by [Rodrigues et al. (2022)](https://doi.org/10.1016/j.patter.2022.100569).
 
 Specifications are in `tbl_vehicles_999.csv`.
 
